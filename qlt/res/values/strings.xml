@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main menu stuff -->
+    <string name="goto_scenario_activity">QL scenario timer</string>
+    <string name="goto_timer_activity">QL timer test</string>
+    <string name="goto_help_activity">Help</string>
+    <string name="goto_donate_activity">Donate</string>
+    
+    <string name="app_name">Quake Live Timer</string>
+    <string name="static_pickupTimeText">"Pickup time: \t\t"</string>
+    <string name="dynamic_pickupTimeValue">2</string>
+    <string name="static_answerText">"Input: \t\t"</string>
+    <string name="dynamic_answerText">27</string>
+    
+    <string name="menu_title">Create your QL Timer test</string>
+    
+    <string name="select_numbers">Select custom spawn times</string>
+    
+    <!-- spinners menu pickup item type -->
+    <string name="spinner_pickupType">Select type of pickup</string>
+    <string-array name="spinner_pickupitem_array">
+        <item>MH only</item>
+        <item>RA only</item>
+        <item>MH+RA</item>
+    </string-array>
+    
+    <!-- spinners menu number of tests -->
+    <string name="spinner_numberoftest">Select number of tests</string>
+    <string-array name="spinner_numberoftest_array">
+        <item>10 tests</item>
+        <item>20 tests</item>
+        <item>50 tests</item>
+        <item>75 tests</item>
+        <item>100 tests</item>
+    </string-array>
+    
+    <!-- spinners new menu -->
+    <string name="spinner_endingValues">Select ending values</string>
+    <string-array name="spinner_endingValues_array">
+        <item>All</item>
+        <item>End value 0 and 5</item>
+        <item>End value 1 and 6</item>
+        <item>End value 2 and 7</item>
+        <item>End value 3 and 8</item>
+        <item>End value 4 and 9</item>
+        <item>Between 0 and 9</item>
+        <item>Between 10 and 19</item>
+        <item>Between 20 and 29</item>
+        <item>Between 30 and 39</item>
+        <item>Between 40 and 49</item>
+        <item>Between 50 and 59</item>
+    </string-array>
+
+    <!-- Spinner threshold stuff -->
+    <string name="spinner_threshold_value">Select threshold value</string>
+    <string-array name="spinner_thresholdValue">
+        <item >2 sec</item>
+        <item >3 sec</item>
+        <item >4 sec</item>
+        <item >5 sec</item>
+        <item >6 sec</item>
+    </string-array>
+    
+    <string name="spinner_countingup_value">Select counting up/down</string>
+    <string-array name="spinner_countingup_value">
+        <item >Counting up</item>
+        <item >Counting down</item>
+    </string-array>
+    
+    <string name="menu_generate_ql_test">Generate QL Timer test</string>
+    <string name="generate_scenario_test">Generate scenario</string>
+    
+    <!-- strings for numpad -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    
+    <string name="clear_numpad_button">Clear</string>
+    <string name="submit_numpad_button">Submit</string>
+    
+    
+    <!-- result after test activity -->
+    <string name="back_result_button">Go back</string>
+    
+    <!-- picture descriptions -->
+    <string name="pickupItemType">pickupItem</string>
+
+    <!-- scenario main stuff -->
+    <string name="goScenarioStart">start scenario</string>
+    <!-- Spinner threshold stuff -->
+    <string name="spinner_item_visible_time_array">Select item visiblity timeout</string>
+    <string-array name="spinner_item_visible_time_array">
+        <item >1 sec</item>
+        <item >2 sec</item>
+        <item >3 sec</item>
+    </string-array>
+    <string name="spinner_timeout_to_next_spawn">Select next spawn timeout</string>
+    <string-array name="spinner_timeout_to_next_spawn">
+        <item >2 sec</item>
+        <item >4 sec</item>
+        <item >6 sec</item>
+        <item >8 sec</item>
+    </string-array>
+    <string name="spinner_number_of_items_to_spawn">Select # of items to spawn</string>
+    <string-array name="spinner_number_of_items_to_spawn">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+    
+    <string name="spinner_number_of_scenarios">Select # of scenarios</string>
+    <string-array name="spinner_number_of_scenarios">
+        <item >1</item>
+        <item >5</item>
+        <item >10</item>
+        <item >20</item>
+    </string-array>
+    
+    
+</resources>
