@@ -1,0 +1,7 @@
+*.class
+*.apk
+.metadata
+*.project
+*.settings/
+qlt/target/*
+qlt/*.classpath
