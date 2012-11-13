@@ -27,7 +27,12 @@ public class QLTResultActivity extends Activity {
 	
 		AppExtender share = (AppExtender) getApplication();
 		timerHandler = share.timerHandler;
-				
+		
+		if (timerHandler == null) {
+			setResult(RESULT_CANCELED);
+			finish();
+		}
+		
 		createResultReport();
 		
 		Button confirmButton = (Button) findViewById(R.id.done_result_button);

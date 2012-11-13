@@ -22,6 +22,12 @@ public class QLScenarioShowItemsActivity extends Activity {
 		setContentView(R.layout.qlmemorygenerator);
 		
 		AppExtender share = (AppExtender) getApplication();			
+		
+		if (share.scenarioInfo == null) {
+			setResult(RESULT_CANCELED);
+			finish();
+		}
+	
 		updatePickupItemDisplay(share.currentPickupItem);
 
 		new Timer().schedule(new TimerTask() {

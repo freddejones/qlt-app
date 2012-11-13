@@ -39,6 +39,11 @@ public class QLTTestActivity extends Activity {
 		AppExtender share = (AppExtender) getApplication();
 		timerHandler = share.timerHandler;
 		
+		if (timerHandler == null) {
+			setResult(RESULT_CANCELED);
+			finish();
+		}
+		
 		// reset the value entered by user
 		currentValue = "0";
 		updateTextFieldForInput();
